@@ -91,3 +91,8 @@ Parcial 1/
 └── .vscode/
     └── settings.json    # Configuración del intérprete de Python para el IDE
 ```
+
+## 🤖 Evidencia de Flujos de IA en el Editor
+
+- **Autocompletado**: la función `contar_disparos_totales()` en `battleship.py` fue generada por autocompletado del editor a partir del nombre y tipo de retorno escritos manualmente.
+- **Refactorización guiada**: se le pidió a la IA que escribiera la función `calcular_barcos_restantes()` intencionalmente con mala práctica (números mágicos, nombres poco descriptivos, lógica repetida) para luego refactorizarla aplicando buenas prácticas. La versión original sin refactorizar se conserva en `battleship_pre_refactorizacion.py` como evidencia comparativa; la versión final y funcional está en `battleship.py`.
